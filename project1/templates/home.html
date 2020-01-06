@@ -1,8 +1,8 @@
-{% extends 'index.html'%}
- 
-
-
+{% extends 'base.html'%}
   {% block content %}
-    <h1>My Name is {{name}}</h1>
-    <h2>Home Page</h2>
+    <form action='add'>
+      Enter 1st Number: <input type='text' name='Num1'><br>
+      Enter 2nd Number: <input type='text' name='Num2'><br>
+      <input type='submit'>
+    </form>
   {% endblock %}
